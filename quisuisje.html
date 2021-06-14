@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio HTML CSS">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap" rel="stylesheet">
+
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><span class="color">É</span>lodie FERRY</a> 
+            <br> Webdesigner <span class="color">J</span>unior</h1>
+    </header>
+    <!--Navbar Desktop-->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-items">
+                <a href="index.html" class="nav-links">Accueil</a>
+            </li>
+            <li class="nav-items">
+                <a href="creations.html" class="nav-links">Mes Créations</a>
+            </li>
+            <li class="nav-items">
+                <a href="quisuisje.html" class="nav-links">Qui suis-je ?</a>
+            </li>
+            <li class="nav-items">
+                <a href="contact.html" class="nav-links">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+   <!-- Navbar Mobile -->
+    <nav class="navbarMobile">
+        <div id="menuToggle">
+            <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="creations.html">Mes Créations</a></li>
+                <li><a href="quisuisje.html">Qui suis-je ?</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <section class="yellowBg">
+            <h2 class="title">À propos de moi</h2>
+        </section>
+        <!-- About me -->
+        <section class="about">
+            <div class="aboutBlock1">
+                <h2>C'est le bon endroit pour me présenter ...</h2>
+                <p>Conseillère voyages, 14 années d’expérience progressive dans le secteur du Tourisme. Maîtrisant l’accueil clientèle, les tâches administratives et le « back-office », je possède également des compétences en Informatique en général. Professionnelle énergique, motivée et dotée d’un solide esprit d’équipe.</p>
+
+                <p>Pendant ces 14 années au sein de l’agence, j’ai eu la chance de mettre en place le site Web www.rond-point-evasion.fr en tant qu’autodidacte et je l’ai alimenté et mis à jour régulièrement. Je me suis également chargée de la communication sur les réseaux sociaux. Ce qui m’a beaucoup plu.</p>
+
+                <p>Suite à un bilan de compétences, je suis actuellement EN RECONVERSION PROFESSIONNELLE vers les métiers du WebDesign & de la Communication Digitale !</p>
+
+                <p>En Formation Pro à La Manu, l’école des métiers du numérique au Havre du 29 mars au 28 septembre 2021 pour approfondir mes connaissances et mes compétences dans ce domaine !</p>
+            </div>
+            <div class="aboutBlock2">
+                <img class="me" src="assets/img/elo.jpg" alt="Photo Portait">
+                <a href="assets/img/CV05MAY21.pdf" class="button cv">Voir mon CV</a>
+            </div>
+        </section>
+       
+        <!--Compétences-->
+            <h3 class="center">Voici quelques unes des compétences que j’ai pu acquérir durant 
+                <br>ma formation professionnelle Web Designer et Communication Digitale à La Manu au Havre.</h3>
+        
+        <div class="container">
+            <article class="block">
+                <i class="fas fa-user-check"></i>
+                <h3>UX, Expérience Utilisateur</h3>
+                <p>Un site internet doit être facilement lisible, accessible et interactif pour l’utilisateur ! Respectez toujours l’utilisateur et placez-le au centre de toutes vos actions. Un utilisateur satisfait est un utilisateur qui va revenir sur votre site…</p>
+            </article>
+            <article class="block">
+                <i class="fas fa-atom"></i>
+                <h3>Logo, Identité Visuelle</h3>
+                <p>Soyez reconnaissable ! Votre Logo est votre principale image, celle sue vous laisserez à vos clients. Il est important qu'il soit impactant et lisible. Logo, branding, charte graphique…</p>
+            </article>
+            <article class="block">
+                <i class="fas fa-desktop"></i>
+                <h3>Développement Web</h3>
+                <p>Pour la création de projets web, j’utilise principalement les langages suivants : HTML, CSS et JS. En fonction du projet, je peux passer par des CMS tel que WordPress, faire appel à des librairies ou encore me servir de Framework tel que Bootstrap.</p>
+            </article>
+        </div>
+
+        <div class="container">
+            <article class="block">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Communication Digitale</h3>
+                <p>Création de newsletters, bannières et visuels pour les réseaux sociaux. Création de documents de communication en ligne ou imprimables (brochures, cartes de visite …).</p>
+            </article>
+            <article class="block">
+                <i class="fas fa-palette"></i>
+                <h3>Web Design</h3>
+                <p>Création d’interfaces web. Responsive design. Ergonomie. Référencement naturel, SEO. Développement front-end selon les standards W3C.</p>
+            </article>
+            <article class="block">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Suite Adobe CC</h3>
+                <p>Création d’identité graphique, logos, chartes graphiques, visuels et documents. Typographie, dessin vectoriel, retouche photo. 
+                <br>Photoshop, Illustrator, Indesign</p>
+            </article>
+        </div>
+        
+        <!--Dernières Créa-->
+            <h2 class="center">Mes Dernières Créations</h2>
+        
+        <div class="container">
+            <div class="blockImg">
+                <a href="#">
+                    <img class="mock" src="assets/img/blogVoyages/Mockup-wpblog.jpg" alt="Mock Up Blog Voyages">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+            <div class="blockImg">
+                <a href="#">
+                    <img class="mock" src="assets/img/pteabreak/Mockup-PteaBreak.jpg" alt="Mock Up PteaBreak">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+            <div class="blockImg">
+                <a href="#">
+                    <img class="mock" src="assets/img/mockUpGouzou.jpg" alt="Mock Up Gouzou">
+                    <div class="overlay"></div>
+                </a>
+            </div>
+        </div>
+        <div class="center">
+            <a href="#" class="button">En Voir Plus...</a>
+        </div>
+
+        <!--Section Contact-->
+        <section class="contact">
+            <h2 class="center">COMMENÇONS UN NOUVEAU PROJET ENSEMBLE ! 
+                <br> <span class="white">CONTACTEZ-MOI !</span>
+            </h2>
+            <form method="post" action="traitement.php">
+                <ul>
+                    <li>
+                        <label for="name">Nom : </label>
+                        <input type="text" id="name" name="name" placeholder="Votre Nom">
+                    </li>
+                    <li>
+                        <label for="firstname">Prénom : </label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Votre Prénom">
+                    </li>
+                    <li>
+                        <label for="email">Email : </label>
+                        <input type="email" id="email" name="email" placeholder="Votre Email">
+                    </li>
+                    <li>
+                        <label for="message">Message : </label>
+                        <textarea id="message" name="message" placeholder="Votre Message"></textarea>
+                    </li>
+                </ul>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li class="text">Informations Légales</li>
+            <li><a href="#">Politique de Confidentialité</a></li>
+            <li><a href="#">Mentions Légales</a></li>
+        </ul>
+        <div class="center">
+        <p class="text">Où me retrouver ?</p>
+        <a href="https://www.linkedin.com/in/%C3%A9lodie-ferry-%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB-3b3a18205/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/elodie2812"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/fougdu76/"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+        <p class="copyright">Copyright © Élodie Ferry - 2021</p>
+    </footer>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/5525ad1b2d.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
