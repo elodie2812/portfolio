@@ -321,6 +321,7 @@ i {
     width: 100%;
     padding: 0 15px;
     margin: 20px;
+    justify-content: space-around;
     align-items: center;
 }
 .mockup {
@@ -382,13 +383,24 @@ i {
 
 /* Page Contact */
 .contactSection {
+    background: url(../img/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 40px 0;
 }
 
 .contactBlock {
+    background: rgba( 237, 237, 237, 0.70 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 40%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -400,6 +412,16 @@ i {
     font-size: 1.3em;
 }
 
+.contactBlock i {
+    color:var(--jauneBg);
+    padding: 15px;
+}
+
+.contactBlock i:hover {
+    color:var(--charcoal);
+    padding: 15px;
+}
+
 .small {
     font-size: 1em;
 }
@@ -408,17 +430,21 @@ i {
     color:var(--jauneBg);
 }
 
-.enlarge {
-    font-size: 1.5em;
+.fleche {
+    width: 100%;
 }
 
-.linkedin:hover {
-    color:var(--charcoal);
-}
+
 
 /* Pages Projets */
 .chadou {
+    margin: 50px 0;
     text-align: center;
+    width: 100%;
+}
+
+.chadou img {
+    width: 70%;
 }
 
 .teamWork {
@@ -487,13 +513,15 @@ button:hover {
 
 form input {
     background-color: transparent;
-    border: none;
+    border-radius: 20px;
     padding: 10px;
+    margin: 15px;
     font-size: 1em;
 }
 
 form textarea {
     background-color: transparent;
+    border: 1px solid black;
     font-size: 1.2em;
 }
 
