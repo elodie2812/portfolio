@@ -3,12 +3,13 @@
     --grisClair: rgb(154,156,173);
     --jaunePortrait:rgb(235,188,0);
     --jauneBg: rgb(248,188,0);  
-    --charcoal: rgb(50,50,50);  
+    --charcoal: rgb(50,50,50); 
 }
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Righteous', cursive;
 */
+/*rgba(0,0,0,0.6)*/
 
 header {
     background-image: url(../img/crayonBg.jpg);
@@ -21,6 +22,7 @@ header {
 body {
     font-family: 'Raleway', sans-serif;
     background-color:#ededed;
+    font-size: 1.2em;
 }
 
 h1, h1 a {
@@ -205,6 +207,23 @@ nav a:hover {
 
 /* Corps */
 
+#scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 10;
+}
+
+#scrollTop i {
+    color:var(--charcoal);
+    font-size: 2em;   
+}
+
+#scrollTop i:hover {
+    color:var(--grisClair);
+}
+
+
 h2 {
     text-transform: uppercase;
 }
@@ -280,7 +299,7 @@ i {
 .button {
     border: 1px solid #323232;
     background-color: transparent;
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: 'Righteous', cursive;
     font-size: 1.7em;
     color:var(--charcoal)
@@ -288,6 +307,36 @@ i {
 
 .button:hover {
     color: var(--jauneBg);
+}
+
+/* Page Créations */
+.large {
+    color:var(--jauneBg);
+    font-size: 80px;
+    text-align: left;
+    padding: 0 85px;
+}
+
+.blockMockup {
+    width: 100%;
+    padding: 0 15px;
+    margin: 20px;
+    align-items: center;
+}
+.mockup {
+    width: 70%;
+    padding: 70px 15px;
+}
+
+.project {
+    justify-content: center;
+}
+
+.separateur {
+    height: 5px;
+    background-color: var(--jauneBg);
+    margin: 20px auto;
+    width: 50%;
 }
 
 /* Page Qui-suis-je ? */
@@ -331,36 +380,6 @@ i {
     width: 50%;
 }
 
-/* Page Créations */
-.large {
-    color:var(--jauneBg);
-    font-size: 80px;
-    text-align: left;
-    padding: 0 85px;
-}
-
-.blockMockup {
-    width: 100%;
-    padding: 0 15px;
-    margin: 20px;
-    align-items: center;
-}
-.mockup {
-    width: 70%;
-    padding: 70px 15px;
-}
-
-.project {
-    justify-content: center;
-}
-
-.separateur {
-    height: 5px;
-    background-color: var(--jauneBg);
-    margin: 20px auto;
-    width: 50%;
-}
-
 /* Page Contact */
 .contactSection {
     display: flex;
@@ -395,6 +414,42 @@ i {
 
 .linkedin:hover {
     color:var(--charcoal);
+}
+
+/* Pages Projets */
+.chadou {
+    text-align: center;
+}
+
+.teamWork {
+    width: 60%;
+}
+
+.below {
+    background-color: var(--jauneBg);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: var(--grisFoncé);
+    margin: 20px 30px;
+}
+
+.below:hover {
+    color:#ededed;
+}
+
+.arrow {
+    font-size: 1.1em;
+    color:var(--grisFoncé);
+}
+
+.arrow:hover {
+    color: white;
+}
+
+.buttonBlock {
+    text-align: center;
+    padding: 15px;
 }
 
 

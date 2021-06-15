@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio HTML CSS">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap" rel="stylesheet">
+
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><span class="color">É</span>lodie FERRY</a> 
+            <br> Webdesigner <span class="color">J</span>unior</h1>
+    </header>
+    <!--Navbar Desktop-->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-items">
+                <a href="index.html" class="nav-links">Accueil</a>
+            </li>
+            <li class="nav-items">
+                <a href="creations.html" class="nav-links">Mes Créations</a>
+            </li>
+            <li class="nav-items">
+                <a href="quisuisje.html" class="nav-links">Qui suis-je ?</a>
+            </li>
+            <li class="nav-items">
+                <a href="contact.html" class="nav-links">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+   <!-- Navbar Mobile -->
+    <nav class="navbarMobile">
+        <div id="menuToggle">
+            <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="creations.html">Mes Créations</a></li>
+                <li><a href="quisuisje.html">Qui suis-je ?</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div id="scrollTop">
+            <a href="#"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+        <section class="yellowBg">
+            <h2 class="title">Refonte d'un site existant</h2>
+            <p>BOOTSTRAP</p>
+            <p>Deuxième projet réalisé en équipe.</p>
+            <p>Refonte d’un site internet à l’aide de Bootstrap.</p>
+        </section>
+
+        <section class="chadou">
+            <img src="assets/img/pteabreak/pteabreak.png" alt="Mock up PteaBreak">
+            <h3>Projet réalisé en équipe avec Mohamed Ben Malfi & Sandryne Avenel. Mohamed était Scrum Master sur ce projet.</h3>
+        </section>
+
+        <section class="container">
+            <div class="blockMockup">
+                <h2>Travail en équipe</h2>
+                <p>Pour ce deuxième projet, le but était la refonte d’un site existant à l’aide de Bootstrap.</p>
+                <p>Nous nous sommes organisés à l’aide d’un Trello. Nous avons choisi ensemble les couleurs, typographies, images,etc…</p>
+                <p>Sandryne a réalisé la maquette sur Adobe XD. Elle s’est aussi chargée de refaire le logo sur Illustrator.</p>
+                <p>Pour l’intégration, nous avons réparti les tâches : Mohamed s’est occupé de la page  « Nos patisseries », Sandryne de la page « Boutique », et j’ai intégré les pages « Contact » et « Nos P’teas ».</p>
+                <p>Nous avons ensuite valider la structure HTML à l’aide de W3C Validator.</p>
+                <p>La plus grosse difficulté sur ce projet était, pour moi, l’utilisation de Github pour « merger » nos travaux !</p>
+            </div>
+            <div class="blockImg">
+                <img class="teamWork" src="assets/img/teamWork.png" alt="teamWork">
+                <img class="teamWork" src="assets/img/github-logo.png" alt="github">
+            </div>
+        </section>
+
+        <div class="separateur"></div>
+
+        <!-- Créations -->
+        <section class="container">
+            <div class="blockMockup">
+                <h2 class="large">01</h2>
+                <h2>Planche Tendance</h2>
+                <p>Choix des Polices & des Couleurs.</p>
+            </div>
+            <div class="blockMockup">
+                    <img class="mockup" src="assets/img/pteabreak/plancheTendancePteabreak.jpg" alt="Planche Tendance PteaBreak">
+            </div>
+        </section>
+
+        <div class="separateur"></div>
+
+        <section class="container">
+            <div class="blockMockup">
+                <h2 class="large">02</h2>
+                <h2>Maquettage</h2>
+                <p>Maquettes version Desktop & version Mobile réalisées avec Adobe XD.</p>
+            </div>
+            <div class="blockMockup">
+                    <img class="mockup" src="assets/img/pteabreak/accueilDesktop.jpg" alt="Maquette Desktop PteaBreak">
+            </div>
+            <div class="blockMockup">
+                <img class="mockup" src="assets/img/pteabreak/accueilMoble.jpg" alt="Maquette Mobile PteaBreak">
+            </div>
+        </section>
+
+        <div class="separateur"></div>
+
+        <section class="container">
+            <div class="blockMockup">
+                    <img class="mockup" src="assets/img/background-split-02-1024x452.jpeg" alt="Image Bureau">
+            </div>
+            <div class="blockMockup">
+                <h2 class="large">03</h2>
+                <h2>Mise en Ligne</h2>
+                <p>Mise en ligne à l’aide de Github pages.</p>
+                <a href="https://momms.github.io/pteabreak/index.html" target="_blank" class="button project">Voir le résultat</a>
+            </div>
+        </section>
+
+        <div class="separateur"></div>
+
+        <div class="buttonBlock">
+            <a href="projet-chadou.html" class="button below"> <i class="fas fa-caret-left arrow"></i> Projet Précédent </a>
+            <a href="projet-shifumi.html" class="button below"> Projet Suivant <i class="fas fa-caret-right arrow"></i> </a>
+        </div>
+
+    </main>
+    <footer>
+        <ul>
+            <li class="text">Informations Légales</li>
+            <li><a href="#">Politique de Confidentialité</a></li>
+            <li><a href="#">Mentions Légales</a></li>
+        </ul>
+        <div class="center">
+        <p class="text">Où me retrouver ?</p>
+        <a href="https://www.linkedin.com/in/%C3%A9lodie-ferry-%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB-3b3a18205/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/elodie2812"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/fougdu76/"><i class="fab fa-instagram"></i></a>
+        </div>
+        
+        <p class="copyright">Copyright © Élodie Ferry - 2021</p>
+    </footer>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/5525ad1b2d.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
