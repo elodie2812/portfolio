@@ -248,12 +248,12 @@ h2 {
 
 .center {
     text-align: center;
-    margin: 20px;
 }
 
 .container {
     display: flex;
     justify-content:space-around;
+    text-align: center;
     width: 100%;
 }
 
@@ -319,14 +319,13 @@ i {
 
 .blockMockup {
     width: 100%;
-    padding: 0 15px;
-    margin: 20px;
+    padding: 0 20px;
     justify-content: space-around;
     align-items: center;
 }
 .mockup {
     width: 70%;
-    padding: 70px 15px;
+    padding: 70px 0;
 }
 
 .project {
@@ -435,7 +434,6 @@ i {
 }
 
 
-
 /* Pages Projets */
 .chadou {
     margin: 50px 0;
@@ -476,6 +474,11 @@ i {
 .buttonBlock {
     text-align: center;
     padding: 15px;
+}
+
+/* Page Mentions Légales */
+.mentions {
+    padding: 20px;
 }
 
 
