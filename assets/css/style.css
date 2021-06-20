@@ -23,7 +23,6 @@ header {
     height:350px;
     display: flex;
     justify-content: center;
-    margin-top: 95px;
 }
 
 body {
@@ -59,8 +58,10 @@ ul {
 
 /* Navbar Desktop*/
 nav {
-    background-color: #ededed;
-    min-height: 50px;
+    background-color: rgba( 237, 237, 237, 0.90 );
+    box-shadow: 0px 0px 32px 0px rgba( 31, 38, 135, 0.37 );
+    min-height: 60px;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -69,13 +70,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
-    background-color: #ededed;
-    position: fixed;
-    top: 0;
-    z-index: 10;
+    padding: 5px 0;
+    background-color: rgba( 237, 237, 237, 0.90 );
+    /*position: sticky;
+    top: 355px;
+    z-index: 10;*/
     height: fit-content;
-    width: 100%;
     box-shadow: 0px 0px 32px 0px rgba( 31, 38, 135, 0.37 );
     margin: auto;
 }
@@ -235,7 +235,7 @@ nav a:hover {
     position: fixed;
     bottom: 20px;
     right: 50px;
-    z-index: 10;
+    z-index: 15;
 }
 
 #scrollTop i {
@@ -273,20 +273,21 @@ h2 {
 .center {
     text-align: center;
     margin-bottom: 20px;
-    padding: 20px 0;
+    padding: 20px 5px;
 }
 
 .container {
+    width: 100%;
     display: flex;
     justify-content:space-around;
-    text-align: center;
-    width: 100%;
+    align-items:center;
+    text-align:center;
 }
 
 .block {
-    width: 100%;
     text-align: center;
-    padding: 40px;
+    margin: 20px 10px;
+    padding:15px;
 }
 
 i {
@@ -296,7 +297,7 @@ i {
 
 .blockImg{
     position: relative;
-    width: 100%;
+    margin: 20px 10px;
     padding: 15px;
 }
 
@@ -346,8 +347,8 @@ i {
 }
 
 .blockMockup {
-    width: 100%;
-    padding: 20px 30px;
+    margin: 20px 10px;
+    padding: 20px;
     justify-content: space-around;
     align-items: center;
 }
@@ -571,16 +572,14 @@ form textarea {
 }
 
 /* Footer */
-
 footer {
-    display: flex;
-    justify-content:space-between;
-    padding: 15px;
+    font-size: 0.8em;
+    padding: 0;
 }
-
 footer i {
     color:var(--charcoal);
-    padding: 15px;
+    font-size: 2.7em;
+    padding: 10px;
 }
 
 footer i:hover {
@@ -595,11 +594,23 @@ footer a:hover {
     font-family: 'Righteous', cursive;
     text-transform: uppercase;
     color:var(--jauneBg);
-    font-size:1.7em;
 }
 
 .copyright {
-    font-size: 1.3em;
+   font-size: 0.9em;
+}
+
+.stickyFooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: rgba( 237, 237, 237, 0.90 );
+    box-shadow: 0px 0px 32px 0px rgba( 31, 38, 135, 0.37 );
+    max-height: 90px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    z-index: 5;
 }
 
 
@@ -645,11 +656,12 @@ footer a:hover {
         flex-direction: column;
     }
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .stickyFooter {
+        max-height: fit-content;
+    }
+
+    footer i {
+        font-size: 2.1em;
     }
     
 }
