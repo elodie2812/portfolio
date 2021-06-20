@@ -60,7 +60,7 @@ ul {
 nav {
     background-color: rgba( 237, 237, 237, 0.90 );
     box-shadow: 0px 0px 32px 0px rgba( 31, 38, 135, 0.37 );
-    min-height: 60px;
+    min-height: 85px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -95,6 +95,10 @@ nav a {
 nav a:hover {
     text-decoration: overline;
     color: var(--jauneBg);
+}
+
+nav img {
+    width: 25%;
 }
 
 .nav-menu {
@@ -628,6 +632,12 @@ footer a:hover {
     }
     .navbarMobile {
         display: block;
+    }
+    nav img {
+        width: 10%;
+        position:fixed;
+        top: 0;
+        left: 70px;
     }
 
     .yellowBg {
