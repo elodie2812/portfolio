@@ -357,6 +357,10 @@ i {
     width: 70%;
 }
 
+.mockup:hover {
+    filter:contrast(200%);
+}
+
 .separateur {
     height: 5px;
     background-color: var(--jauneBg);
@@ -487,6 +491,9 @@ i {
 }
 
 .teamWork {
+    width: 60%;
+}
+.indesign {
     width: 60%;
 }
 
