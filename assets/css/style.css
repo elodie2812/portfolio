@@ -496,6 +496,9 @@ i {
 .indesign {
     width: 60%;
 }
+.illustrator {
+    width: 100%;
+}
 
 .below {
     background-color: var(--jauneBg);
@@ -651,6 +654,14 @@ footer a:hover {
         align-items: center;
     }
 
+    .blockImg {
+        text-align: center;
+    } 
+
+    .bodyAndSoul {
+        width: 60%;
+    }
+
     .about {
         display: flex;
         flex-direction: column;
@@ -675,7 +686,15 @@ footer a:hover {
 @media only screen and (max-width: 660px) {
     body {
         overflow-x: hidden;
-    } 
+    }
+    
+    .blockImg {
+        text-align: center;
+    }
+    
+    .bodyAndSoul {
+        width: 60%;
+    }
 
     footer {
         font-size: 0.6em;
