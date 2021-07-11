@@ -723,6 +723,10 @@ footer a:hover {
         text-align: center;
     } 
 
+    .mockup {
+        width: 90%;
+    }
+
     .bodyAndSoul {
         width: 60%;
     }
@@ -764,6 +768,10 @@ footer a:hover {
     
     .blockImg {
         text-align: center;
+    }
+
+    .mockup {
+        width: 90%;
     }
     
     .bodyAndSoul {
