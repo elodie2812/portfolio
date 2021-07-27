@@ -115,7 +115,7 @@ nav img {
 #menuToggle {
     display: block;
     position: relative;
-    top: 0px;
+    top: 8px;
     left: 30px;
 
     z-index: 1;
