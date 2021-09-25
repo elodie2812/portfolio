@@ -467,7 +467,7 @@ i {
 }
 
 .small {
-    font-size: 1em;
+    font-size: 1.6em;
 }
 
 .mail:hover {
@@ -785,6 +785,15 @@ footer a:hover {
     
     .bodyAndSoul {
         width: 60%;
+    }
+
+    .contactBlock {
+        width: 50%;
+    }
+
+    .contactBlock li {
+        font-size: 1em;
+        text-align: center;
     }
 
     footer {
