@@ -532,7 +532,7 @@ i {
 }
 
 
-/* Carousel */
+/* Carrousel */
 
 .slider {
     width: 980px;
@@ -590,6 +590,57 @@ i {
     96% { transform: translateX(-6860px)}
     100% { transform: translateX(0);}
 }
+
+/* Carrousel page Illustrations */
+#carrousel { 
+    width: 80%; 
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+#carrousel figure {
+    position: relative; 
+    width: 1000%;
+    margin: auto;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+
+#carrousel figure img { 
+    width: 10%; 
+    height: auto; 
+    float: left; 
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    85% { left: -800%; }
+    90% { left: -900%; }
+    95% { left: -900%; }
+    100% { left: -900%; }
+}
+
+#carrousel figure {
+    animation: 20s slidy infinite;
+  }
 
 
 /* Page Mentions Légales */
