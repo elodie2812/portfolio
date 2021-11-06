@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elodie Ferry Webdesigner Le Havre - Portfolio HTML CSS">
+    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap" rel="stylesheet">
+     <!-- Favicons -->
+     <link href="assets/img/favicon2.png" rel="icon">
+
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CN36QT38XM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CN36QT38XM');
+    </script>  
+     
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><span class="color">É</span>lodie FERRY</a> 
+            <br> <strong>Webdesigner</strong> / Intégratrice <span class="color">W</span>eb 
+            <br> <span class="color">L</span>e <span class="color">H</span>avre 
+        </h1>
+    </header>
+    <!--Navbar Desktop-->
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo"> <img src="assets/img/logo-portfolio.png" alt="logo"></a>
+        <ul class="nav-menu">
+            <li class="nav-items">
+                <a href="index.html" class="nav-links">Accueil</a>
+            </li>
+            <li class="nav-items">
+                <a href="creations.html" class="nav-links">Mes Créations</a>
+            </li>
+            <li class="nav-items">
+                <a href="quisuisje.html" class="nav-links">Qui suis-je ?</a>
+            </li>
+            <li class="nav-items">
+                <a href="references.html" class="nav-links">Références</a>
+            </li>
+            <li class="nav-items">
+                <a href="contact.html" class="nav-links">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+   <!-- Navbar Mobile -->
+    <nav class="navbarMobile">
+        <div id="menuToggle">
+            <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="creations.html">Mes Créations</a></li>
+                <li><a href="quisuisje.html">Qui suis-je ?</a></li>
+                <li><a href="references.html">Références</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <a href="index.html" class="nav-logo"> <img src="assets/img/logo-portfolio.png" alt="logo"></a>
+    </nav>
+    
+    <main>
+        <div id="scrollTop">
+            <a href="#"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+        <section class="yellowBg">
+            <h2 class="title">Réalisation du jeu du Casse-Briques</h2>
+            <p>HTML / CSS / JAVASCRIPT</p>
+            <p>Challenge personnel réalisé en solo le temps d’un week-end.</p>
+        </section>
+
+        <section class="chadou">
+            <img src="assets/img/wallbreaker/wallbreaker.png" alt="Mock up Wallbreaker">
+            <h3>Challenge personnel réalisé en solo le temps d’un week-end.</h3>
+        </section>
+
+        <div class="separateur"></div>
+
+        <!-- Créations -->
+        <section class="container">
+            <div class="blockMockup">
+                <h2 class="large">01</h2>
+                <h2>Explications</h2>
+                <p>Jeu de casse-briques 2D créé entièrement avec JavaScript et sans framework, rendu avec la balise HTML5 <code>canvas</code>.</p>
+                <p>Mécaniques de base du jeu :</p>
+                <ul>
+                    <li>Charger et déplacer des images</li>
+                    <li>Détections des collisions</li>
+                    <li>Mécanismes de contrôle</li>
+                    <li>Conditions de Victoire/Défaite</li>
+                </ul>
+            </div>
+            <div class="blockMockup">
+                    <img class="mockup" src="assets/img/wallbreaker/wall.png" alt="Wallbreaker">
+            </div>
+        </section>
+        
+        <div class="separateur"></div>
+
+        <section class="container">
+            <div class="blockMockup">
+                    <img class="desk" src="assets/img/wallbreaker/mockupWall.jpg" alt="Image Bureau">
+            </div>
+            <div class="blockMockup">
+                <h2 class="large">02</h2>
+                <h2>Mise en Ligne</h2>
+                <p>Mise en ligne avec Github Pages</p>
+                <p>N’hésitez pas à tester le jeu par vous-mêmes ici !👇🏽</p>
+                <a href="https://elodie2812.github.io/WallBreaker/" target="_blank" rel="noopener" class="button project">Voir le résultat</a>
+            </div>
+        </section>
+
+        <div class="separateur"></div>
+
+        <div class="buttonBlock">
+            <a href="projet-pteabreak.html" class="button below"> <i class="fas fa-caret-left arrow"></i> Projet Précédent </a>
+            <a href="projet-shifumi.html" class="button below"> Projet Suivant <i class="fas fa-caret-right arrow"></i> </a>
+        </div>
+
+    </main>
+    <footer class="stickyFooter">
+        <ul>
+            <li class="text">Informations Légales</li>
+            <li><a href="confidentialite.html">Politique de Confidentialité</a></li>
+            <li><a href="mentionslegales.html">Mentions Légales</a></li>
+        </ul>
+        <div class="center">
+            <a href="mailto:elodie2812@gmail.com"><i class="fas fa-at"></i></a>
+            <a href="https://www.linkedin.com/in/%C3%A9lodie-ferry-%F0%9F%91%A9%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB-3b3a18205/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/elodie2812"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/fougdu76/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">Copyright © Élodie Ferry - 2021</p>
+    </footer>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/5525ad1b2d.js" crossorigin="anonymous"></script>
+
+    <!--Javascript-->
+    <script src="assets/js/jquery-3.2.1.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

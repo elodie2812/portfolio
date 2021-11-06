@@ -410,6 +410,18 @@ i {
     width: 50%;
 }
 
+.diplomes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.diplomes img{
+    width: 30%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 32px 0px rgba( 31, 38, 135, 0.37 );
+}
+
 .video {
     text-align: center;
     padding: 30px;
@@ -640,6 +652,44 @@ i {
 
 #carrousel figure {
     animation: 20s slidy infinite;
+  }
+
+/* Carrousel Logos page Références */
+#LogoCarrousel { 
+    width: 80%; 
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden
+}
+
+#LogoCarrousel figure {
+    position: relative; 
+    width: 400%;
+    margin: auto;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+
+#LogoCarrousel figure img { 
+    width: 25%; 
+    height: auto; 
+    float: left; 
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  100% { left: -300%; }
+}
+
+#LogoCarrousel figure {
+    animation: 10s slidy infinite;
   }
 
 
