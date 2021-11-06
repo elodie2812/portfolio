@@ -846,6 +846,18 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .diplomes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .diplomes img {
+        margin-top: 15px;
+        width: 80%;
+    }
+
     .videoSize {
         max-width: 100%;
         max-height: 100%;
